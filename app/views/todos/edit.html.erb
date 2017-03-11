@@ -4,7 +4,7 @@
 	<h2>The following errors prevented the Todos from being saved</h2>
 	<ul>
 		<% @todo.errors.full_messages.each do |msg| %>
-		<li class="flash"><%= msg %></li>
+		<li><%= msg %></li>
 		<% end %>
 	</ul>
 <% end %>
