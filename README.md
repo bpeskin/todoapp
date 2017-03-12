@@ -28,3 +28,6 @@ We will need a Todo model
 Create a few Todo's
 
 Rails console
+
+Create a partial, or file that holds code 
+Refactor code

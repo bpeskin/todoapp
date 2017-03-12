@@ -9,13 +9,8 @@
   </head>
 
   <body>
-  	<% flash.each do |name, msg| %>
-  	<ul>
-  		<li class="flash"><%= msg %></li>
-  	</ul>
-  	<% end %>
+    <%= render 'layouts/messages' %>  
     <%= yield %>
-
-    <%= link_to 'Show all Todos', todos_path %>
+    <%= render 'layouts/navigation' %>
   </body>
 </html>
