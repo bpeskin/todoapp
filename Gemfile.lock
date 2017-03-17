@@ -84,6 +84,7 @@ GEM
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
     nokogiri (1.7.0.1-java)
+    pg (0.19.0)
     puma (3.7.1)
     puma (3.7.1-java)
     rack (2.0.1)
@@ -171,6 +172,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  pg
   puma (~> 3.0)
   rails (~> 5.0.1)
   sass-rails (~> 5.0)
@@ -183,4 +185,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.14.3
+   1.14.4
